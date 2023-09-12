@@ -3,12 +3,12 @@ analytics_connector_version = "1.0.1" # Version is managed automatically by sema
 Pod::Spec.new do |spec|
 
   spec.name         = "AnalyticsConnector"
-  spec.version      = analytics_connector_version 
+  spec.version      = "1.0.2-static"
   spec.summary      = "Connector library for seamless integration between Amplitude Analytics and Experiment SDKs"
   spec.license      = { :type => "MIT" }
   spec.author       = { "Amplitude" => "experiment@amplitude.com" }
   spec.homepage     = "https://amplitude.com"
-  spec.source       = { :git => "https://github.com/amplitude/analytics-connector-ios.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/kamavitalya/analytics-connector-ios.git", :tag => "v#{spec.version}" }
 
   spec.swift_version = '5.0'
   
